@@ -1,0 +1,45 @@
+/* Reset CSS styles */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #ffffff;    
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: #b40000;
+    background-color: #d4d4d4;
+}
+
+main {
+    margin: 3rem 2rem;
+}
+
+h1 {
+    background-color: #0000ff;
+    padding: 1rem 2rem;
+}
+section {
+    background-color: #008000;
+    padding: 1rem 2rem;
+    line-height: 1.5;
+}
+footer {
+    margin-top: auto;
+    padding: 50px;
+    text-align: center;
+    color: #000000;
+    background-color: #d4d4d4;
+}
